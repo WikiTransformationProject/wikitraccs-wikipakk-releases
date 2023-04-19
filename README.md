@@ -1,6 +1,6 @@
 # WikiTraccs WikiPakk - SharePoint Wiki Productivity Solution
 
-[![WikiPakk Page Tree Editor](https://www.wikitransformationproject.com/docs/wikipakk-reference/wikipakk-quick-start/wikitraccs-wikipakk-2-order-pages.gif)](https://www.wikitransformationproject.com/docs/wikipakk-reference/wikipakk-quick-start/)
+[![WikiPakk Page Tree Editor](https://www.wikitransformationproject.com/docs/wikipakk-reference/wikitraccs-wikipakk-teaser.gif)](https://www.wikitransformationproject.com/docs/wikipakk-reference/wikipakk-quick-start/)
 
 ### 👉🏽 [GET THE LATEST WIKIPAKK RELEASE](https://github.com/WikiTransformationProject/wikitraccs-wikipakk-releases/releases)
 ### 📖 [WIKIPAKK VISUAL STARTER](https://www.wikitransformationproject.com/docs/wikipakk-reference/wikipakk-quick-start)
