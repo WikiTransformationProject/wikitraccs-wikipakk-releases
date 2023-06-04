@@ -1,4 +1,4 @@
-# WikiTraccs WikiPakk - SharePoint Wiki Productivity Solution
+# WikiTraccs WikiPakk - SharePoint Wiki Page Tree & Breadcrumb
 
 [![WikiPakk Page Tree Editor](https://www.wikitransformationproject.com/docs/wikipakk-reference/wikitraccs-wikipakk-teaser.gif)](https://www.wikitransformationproject.com/docs/wikipakk-reference/wikipakk-quick-start/)
 
