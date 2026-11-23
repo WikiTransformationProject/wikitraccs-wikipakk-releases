@@ -1,0 +1,32 @@
+name: Close stale issues
+
+on:
+  schedule:
+    - cron: '30 1 * * *'
+  workflow_dispatch:
+
+concurrency: close-stale-issues
+
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - uses: actions/stale@4391f3da665fdf50b6810c1a66712fb9ba21aa93 # v11.0.0
+        with:
+          days-before-issue-stale: 7
+          days-before-issue-close: 7
+          days-before-pr-stale: -1
+          days-before-pr-close: -1
+          only-issue-labels: awaiting-feedback
+          exempt-issue-labels: 'feature,improvement,status:working-on-it,ANNOUNCEMENT,enhancement,working-on-it'
+          stale-issue-label: stale
+          stale-issue-message: >-
+            This issue is awaiting feedback and has had no activity for 7 days.
+            Please reply with an update to keep it open. It will be closed after
+            another 7 days without activity.
+          close-issue-message: >-
+            This issue was closed after 7 days without activity following the stale reminder.
+            If you have new information, please leave a comment so we can review and reopen it.
+          debug-only: ${{ github.event_name == 'workflow_dispatch' }}
